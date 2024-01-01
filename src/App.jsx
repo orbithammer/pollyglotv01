@@ -8,7 +8,7 @@ function App() {
     const [phrase, setPhrase] = React.useState("")
     const [response, setResponse] = React.useState("")
     const apiKey = import.meta.env.VITE_OPENAI_API_KEY
-    console.log("apikey: ", apiKey)
+
     const handlePhraseChange = event => {
         setPhrase(event.target.value)
     }
@@ -26,7 +26,8 @@ function App() {
                 }
             ]
             const openai = new OpenAI({
-                apiKey
+                apiKey,
+                dangerouslyAllowBrowser: true
             })
 
             const response = await openai.chat.completions.create({
