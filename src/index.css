@@ -11,10 +11,10 @@ body {
     margin: 0 auto;
 }
 
-.app-wrapper {
+/*.app-wrapper {
     width: 100vw;
     max-width: 80rem;
-}
+}*/
 
 header {
     display: flex;
@@ -28,8 +28,8 @@ header {
 }
 
     header img {
-        width: 8rem;
-        height: 7rem;
+        width: 5.9rem;
+        height: 5.3rem;
         margin-right: 0.94rem;
     }
 
@@ -41,13 +41,13 @@ header {
 .title {
     font-family: 'Big Shoulders Display', sans-serif;
     color: #32CD32;
-    font-size: 6rem;
+    font-size: 2.7rem;
     margin: 0 0 0.25rem;
 }
 
 .subtitle {
     color: #fff;
-    font-size: 2rem;
+    font-size: 0.76rem;
 }
 
 main {

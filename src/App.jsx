@@ -45,7 +45,7 @@ function App() {
     }
 
     return (
-        <div className="app-wrapper">
+        <>
             <header>
                 <div className="logo-wrapper">
                     <img src={imageUrl} alt="cartoon anthropomorphized parrot" />
@@ -64,7 +64,7 @@ function App() {
                     <button onClick={() => fetchTranslation(phrase)}>{isTranslating ? "Translating..." : "Translate"}</button>
                 </div>
             </main>
-        </div>
+        </>
     )
 }
 
