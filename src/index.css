@@ -56,7 +56,8 @@ main {
     align-items: center;
     padding: 1.88rem 0.9rem 2rem;
     background-color: #fff;
-/*    height: 100vh;*/
+    width: 24.375rem;
+    /*    height: 100vh;*/
 }
 
 .border {
