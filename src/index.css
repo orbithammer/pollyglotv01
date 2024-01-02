@@ -91,7 +91,7 @@ main textarea {
     font-size: 1.25rem;
     line-height: 150%;
     resize: none;
-    min-width: 19.8125rem;
+    width: 100%;
     min-height: 7.375rem;
     padding: 0.75rem;
 }
