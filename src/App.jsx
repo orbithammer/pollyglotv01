@@ -2,7 +2,7 @@
 import OpenAI from "openai"
 import imageUrl from "/src/assets/parrot.png"
 
-console.log("10:39")
+console.log("10:46")
 function App() {
     const [isTranslating, setIsTranslating] = React.useState(false)
     const [phrase, setPhrase] = React.useState("")
