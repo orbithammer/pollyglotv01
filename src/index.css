@@ -67,21 +67,6 @@ main h2 {
     line-height: 150%;
 }
 
-/*main textarea {
-    border-radius: 0.5rem;
-    background: #EFF0F4;
-    border: none;
-    min-width: 19.8125rem;
-    min-height: 7.375rem;
-    margin: 1.44rem 0;
-    padding: 0.75rem;
-    color: #333;
-    font-family: Poppins;
-    font-size: 1.25rem;
-    line-height: 150%;
-    resize: none;
-}*/
-
 main textarea {
     border-radius: 0.5rem;
     background: #EFF0F4;
@@ -94,6 +79,7 @@ main textarea {
     width: 100%;
     min-height: 7.375rem;
     padding: 0.75rem;
+    margin: 1.44rem 0;
 }
 
 .text-output {
